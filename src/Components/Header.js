@@ -3,9 +3,9 @@
       return(
    <header className="App-header">
      Start Bootstrap
-    <div className='header'>About</div>
-    <div className='header'>Projects</div>
-    <div className='header'>Contact</div>
+     <a className='linked' href='google.com'><div className='header'>About</div></a>
+     <a className='linked' href='google.com'><div className='header'>Projects</div></a>
+     <a className='linked' href='google.com'><div className='header'>Contacts</div></a>
     </header>
    )
    }
